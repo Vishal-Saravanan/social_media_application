@@ -33,10 +33,12 @@ export default function CreatePost() {
       {/*Content*/}
       <View className='items-center'>
         {/*Image Picker*/}
-        <Image 
+        {image? (<Image 
           source={{ uri: image }}
           className='w-52 aspect-[3/4] rounded-lg shadow-md bg-slate-300'
-        />
+        />) :(
+          <View className='w-52 aspect-[3/4] rounded-lg bg-slate-300'/>
+        )}
 
         <Text onPress={(pickImage)} className='text-blue-500 font-semibold m-5'>
           Change

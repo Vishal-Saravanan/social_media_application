@@ -1,12 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const honey = () => {
+export default function CreatePost() {
   return (
     <View>
       <Text>honey</Text>
     </View>
   )
 }
-
-export default honey

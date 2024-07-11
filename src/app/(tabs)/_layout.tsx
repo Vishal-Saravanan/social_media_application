@@ -16,7 +16,7 @@ export default function TabsLayout() {
                 }}
             />
             <Tabs.Screen
-                name="honey"
+                name="new"
                 options={{
                     headerTitle: 'Create post',
                     headerTitleAlign: 'center',
